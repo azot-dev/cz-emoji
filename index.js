@@ -15,7 +15,7 @@ const types = require('./lib/types')
 function loadConfig(filename) {
   return readFile(filename, 'utf8')
     .then(JSON.parse)
-    .then(obj => obj && obj.config && obj.config['cz-emoji'])
+    .then(obj => obj && obj.config && obj.config['cz-emoji-azot'])
     .catch(() => null)
 }
 
