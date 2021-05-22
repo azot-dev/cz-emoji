@@ -1,6 +1,6 @@
 {
   "name": "cz-emoji-azot",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "Commitizen adapter formatting commit messages using emojis.",
   "license": "MIT",
   "main": "index.js",
@@ -18,7 +18,7 @@
   ],
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-emoji-azot"
+      "path": "./index.js"
     }
   },
   "dependencies": {
@@ -32,8 +32,5 @@
     "prettier": "^1.18.2",
     "read-pkg-up": "^7.0.1",
     "wrap-ansi": "^3.0.0"
-  },
-  "devDependencies": {
-    "cz-emoji-azot": "^0.0.2"
   }
 }

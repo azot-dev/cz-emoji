@@ -27,7 +27,7 @@ async function getConfig() {
   const defaultConfig = {
     types,
     symbol: false,
-    skipQuestions: [''],
+    skipQuestions: ['scope'],
     subjectMaxLength: 75,
     conventional: false
   }
